@@ -13,3 +13,4 @@ docker inspect <u_container_id>
 Состоит в том что docker inspect image показывает только информацию об имиджи из чего сотоит он
 
 А команда docker inspect container показывает помима информации об имидже из чего сотоит так же дает инфо
+#Test
