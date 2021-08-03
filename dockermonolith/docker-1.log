@@ -1,0 +1,15 @@
+REPOSITORY                  TAG       IMAGE ID       CREATED          SIZE
+geodevops/ubuntu-tmp-file   latest    4c2fed27a96b   46 seconds ago   63.1MB
+ubuntu                      18.04     39a8cfeef173   6 days ago       63.1MB
+nginx                       latest    08b152afcfae   10 days ago      133MB
+hello-world                 latest    d1165f221234   4 months ago     13.3kB
+
+
+Отличия между командами
+
+docker inspect <u_container_id>
+ docker inspect <u_image_id>
+
+Состоит в том что docker inspect image показывает только информацию об имиджи из чего сотоит он
+
+А команда docker inspect container показывает помима информации об имидже из чего сотоит так же дает инфо
